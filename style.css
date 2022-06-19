@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1300px;
+    min-width:500px ;
+    width: 1200px;
+}
+.container{
+    width: 100%;
+   
+}
+.fa {
+   padding: 2px 1px;
+    font-size: 300px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: auto 2px auto 0;
+    
+  }
+.fa-facebook {
+    background: #ffffff;
+    color: #ee4d2d;
+    border-radius: 50%;
+}  
+.fa-instagram{
+    background: #ffffff;
+    color: #ee4d2d;
+    border-radius: 50%;
+}
+.menu-item{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    background-color: #ee4d2d;
+    height: 50px;
+}
+.menu0{
+    float: left;
+   display: flex;
+   margin: auto 0;
+}
+.menu0 li{
+    display: inline;
+   margin-left:  20px;
+}
+.menu0 li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.item-1{
+    margin: auto 0;
+    display: block;
+    position: relative;
+}
+.item-1 li{
+    display: inline;
+}
+.item-1 a{
+    text-decoration: none;
+    color: white;
+}
+.menu-an{
+    display: none;
+    position: absolute;
+}
+.menu-an li{
+    display: block;
+}
+.menu-main :hover.menu-an{
+    display: block;
+}
